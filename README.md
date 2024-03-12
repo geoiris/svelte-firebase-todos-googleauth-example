@@ -173,6 +173,8 @@ Nous avons vu comment mettre en place une authentification avec Google et Fireba
 
 Ainsi grace à ces informations de connexion, nous pourrions par exemple gérer des droits d'accès à certaines pages de notre application. Nous pourrions également gérer des informations spécifiques à l'utilisateur connecté.
 
+Dans le prochain module nous verrons comment mettre à profit cette authentification pour sécuriser l'écriture en base de données, car à ce stade, même si nous sommes connecté, n'importe qui peut écrire dans notre base de données. Nous verrons également une solution pour administrer une liste d'utilisateurs spécifique à travers une collection Firestore (présent dans la version payante de manière plus simple).
+
 ## Pour aller plus loin
 
 Nous allons aller un peu plus loin pour faire en sorte que seule la page d'acceuil soit accessible si l'utilisateur n'est pas connecté.
