@@ -1,5 +1,3 @@
-<script>
-    import Todos from '$components/todos.svelte'
-</script>
+<h1>Accueil</h1>
 
-<Todos />
+<a href="/todos">Tâches</a>
